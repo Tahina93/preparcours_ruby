@@ -10,6 +10,6 @@ b = a+1
 i = 1
 
 b.times do |i|
-	puts "#{year_of_birth+i} , il y a donc #{2019-(year_of_birth+i)} ans tu avais #{a-(2019-(year_of_birth+i))} ans !"
+	puts "Il y a #{2019-(year_of_birth+i)} ans tu avais #{a-(2019-(year_of_birth+i))} ans !"
 
 	end
